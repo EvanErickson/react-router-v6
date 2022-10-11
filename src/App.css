@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  /* min-width: 100%; */
+  width: 99.5vw;
+  height: 99.5vh;
+  /* bottom: 2px; */
+}
+
+.nav {
+  margin-top: auto;
+  /* margin-left: auto; */
+  margin-left: 2%;
+  margin-right: 2%;
+  border: 1px solid navy;
+  /* position: relative;
+  bottom: 0px; */
+}
+
+.navList {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
