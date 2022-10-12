@@ -37,7 +37,7 @@
   }
 }
 
-.container {
+.outterContainer {
   display: flex;
   flex-direction: column;
   border: 1px solid red;
@@ -47,7 +47,23 @@
   /* bottom: 2px; */
 }
 
-.nav {
+.navTop {
+  /* Use margin-bottom auto to make the (div in center) equally spaced between the two navs */
+  /* margin-bottom: auto; */
+  margin-left: 2%;
+  margin-right: 2%;
+  border: 1px solid navy;
+  /* position: relative;
+  bottom: 0px; */
+}
+
+.navTopList {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+} 
+
+.navBottom {
   margin-top: auto;
   /* margin-left: auto; */
   margin-left: 2%;
@@ -57,7 +73,7 @@
   bottom: 0px; */
 }
 
-.navList {
+.navBottomList {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
