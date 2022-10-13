@@ -35,7 +35,7 @@ function App() {
         </nav>
 
 
-
+      {/* React Router v6.4 */}
         <Routes>
           <Route path="/" state="Evan" element={<Home />} />
           <Route path="/profile">
@@ -58,7 +58,7 @@ function App() {
             <Link to="/">New Likes</Link>
           </div>
         </nav>
-      </div>
+      </div> {/* Outter Container */}
     </>
   );
 }
